@@ -1,4 +1,4 @@
-# Santosh Kafle | Backend Developer & Aspiring DevOps 👋
+# Santosh Kafle | Backend Developer & DevOps 👋
 
 I’m a **Backend Developer** with solid experience in **Laravel, NestJS, Express, Fastify, and MongoDB**, now **expanding into DevOps** to build **secure, high-performance, and scalable systems**.  
 I combine backend expertise with growing knowledge in **DevOps, Docker, Linux, and CI/CD best practices**.
