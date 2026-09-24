@@ -1,6 +1,6 @@
 # Santosh Kafle
 
-I started out writing Laravel and Node APIs for e-commerce shops in Kathmandu. Over time I became the person who got pulled in when a server misbehaved, a deploy broke, or the database got slow, and I realised I liked that part of the job more than the features. So now I'm moving into DevOps full-time.
+DevOps engineer with a backend development background, based in Kathmandu. I work with Linux servers, containers, CI/CD pipelines and the databases behind production e-commerce platforms and REST APIs.
 
 [kaflesantosh.com.np](https://kaflesantosh.com.np) · [CV](https://kaflesantosh.com.np/cv) · [LinkedIn](https://www.linkedin.com/in/santosh-kafle-dev) · santoshkafle.dev@gmail.com
 
@@ -11,21 +11,21 @@ location: kathmandu, nepal (UTC+5:45)
 status:   open to devops roles
 ```
 
-## Some things I've dealt with in production
+## Qualifications
 
-A server I looked after got compromised and was quietly mining crypto. I tracked down the miner, removed it, rotated every credential in the environment and hardened the box so the same door couldn't be used twice.
-
-We were outgrowing MySQL, so I moved the production databases to PostgreSQL. Queries got about 70% faster.
-
-One e-commerce backend had to stay quick under real traffic. Redis caching and Meilisearch kept responses under 300ms.
-
-I put dev and prod into Docker so "works on my machine" stopped being an argument, and handled the Linux hosts and Cloudflare DNS, including the SPF, DKIM and DMARC records nobody else wanted to touch.
-
-The APIs I built in Laravel and Node.js use JWT auth and rate limiting, and serve 250+ consumers a day.
+- Linux server administration, hardening and incident response
+- Containerised development and production environments with Docker and Docker Compose
+- CI/CD pipelines with GitHub Actions
+- Nginx reverse proxy and internal network design
+- Monitoring and observability with Prometheus and Grafana
+- Database administration, migration and query optimisation (PostgreSQL, MySQL, MongoDB)
+- Caching and search with Redis and Meilisearch
+- DNS and email authentication on Cloudflare (SPF, DKIM, DMARC)
+- REST API development with JWT authentication and rate limiting (Laravel, NestJS, Express)
 
 ## Projects
 
-**[multi_service_deployment](https://github.com/santosh-kafle/multi_service_deployment)**: five containers behind one door.
+**[multi_service_deployment](https://github.com/santosh-kafle/multi_service_deployment)**: five-service stack behind a single Nginx entry point.
 
 ```
               :80
@@ -45,7 +45,7 @@ Only Nginx publishes a port; the API, database and cache can't be reached from o
   (host metrics)     (scrape+store)   (provisioned dashboards)
 ```
 
-`git clone && docker compose up` and you have a working dashboard with no clicking around in the UI. It tracks CPU, memory, disk, network, temperature, battery and pressure stalls. Everything binds to `127.0.0.1` and secrets stay in a gitignored `.env`.
+`git clone && docker compose up` and you have a working dashboard. It tracks CPU, memory, disk, network, temperature, battery and pressure stalls. Everything binds to `127.0.0.1` and secrets stay in a gitignored `.env`.
 
 ## Sites I've worked on
 
