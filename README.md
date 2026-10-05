@@ -25,6 +25,17 @@ Only the proxy is exposed, the databases need passwords, and healthchecks gate s
 
 Dashboards provisioned as code, with install, update and rollback scripts and versioned releases. Dependabot image bumps are tested in CI before merge.
 
+## Production work
+
+Shipped at [Quark InfoTech](https://kaflesantosh.com.np/cv), Lalitpur. All four are live in production.
+
+| Site | My part | Stack |
+|---|---|---|
+| [zolpastore.com](https://zolpastore.com/) | E-commerce backend, caching and search | Laravel, PostgreSQL, Redis, Meilisearch, Docker, OAuth |
+| [ultima.com.np](https://ultima.com.np/) | E-commerce with GETPAY payments | Laravel, MySQL, Docker |
+| [singingbowlvillagenepal.com](https://singingbowlvillagenepal.com/) | PHP 8.4 / Laravel 12 build, PostgreSQL migration | Laravel, PostgreSQL, GETPAY |
+| [iteam.com.np](https://iteam.com.np/) | Early backend setup and architecture | Laravel, PostgreSQL, Docker |
+
 ## Tools
 
 ```yaml
@@ -37,4 +48,4 @@ data:     postgresql, mysql, mongodb, redis, meilisearch
 
 ---
 
-More at [kaflesantosh.com.np](https://kaflesantosh.com.np).
+santoshkafle.dev@gmail.com · [LinkedIn](https://www.linkedin.com/in/santosh-kafle-dev) · [kaflesantosh.com.np](https://kaflesantosh.com.np)
