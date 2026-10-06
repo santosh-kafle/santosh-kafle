@@ -16,7 +16,7 @@ I build containerised stacks on Linux and the plumbing around them: Compose, Ngi
 
 Only the proxy is exposed, the databases need passwords, and healthchecks gate startup. Every green commit publishes its images to GHCR, so rolling back is just an older SHA.
 
-**[prometheus-grafana-monitoring](https://github.com/santosh-kafle/prometheus-grafana-monitoring)**: one-command monitoring for any Linux machine.
+**[homelab-monitoring](https://github.com/santosh-kafle/homelab-monitoring)**: one-command monitoring for any Linux machine.
 
 ```
   node-exporter ───▶ prometheus ───▶ grafana
