@@ -1,16 +1,19 @@
 # Santosh Kafle
 
-I build containerised stacks on Linux, with CI that tests the whole stack and monitoring defined in code.
+DevOps & Cloud Engineer · Kathmandu, working remotely
 
-## Tools
+I keep servers, deploys, pipelines and dashboards running. I came to DevOps from backend development, building e-commerce systems that are still live in production.
 
 ```yaml
-infra:    docker, compose, nginx, linux, bash, aws, cloudflare
-ci/cd:    github actions, ghcr, dependabot, shellcheck
-observe:  prometheus, grafana, node exporter
-backend:  php, laravel, typescript, nestjs, node, express
-data:     postgresql, mysql, mongodb, redis, meilisearch
+# how I like things set up
+ci:          tests the whole stack, not one service
+rollback:    redeploy an older sha
+dashboards:  in git, not clicked together
+alerts:      go to my phone
+uninstall:   leaves nothing behind
 ```
+
+Day to day: Docker, Compose, Nginx, Linux, Bash, GitHub Actions, Prometheus, Grafana, AWS, Cloudflare, Laravel, Node, PostgreSQL, MySQL, MongoDB, Redis.
 
 ---
 
